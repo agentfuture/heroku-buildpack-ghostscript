@@ -1,6 +1,6 @@
 # Heroku Buildpack for Ghostscript (full version)
 
-Currently installs Ghostscript 9.22 on Heroku Cedar. This buildpack takes the binary available at https://www.ghostscript.com/download/gsdnld.html
+Currently installs Ghostscript 9.25 on Heroku Cedar. This buildpack takes the binary available at https://www.ghostscript.com/download/gsdnld.html
 
 ## Install
 
