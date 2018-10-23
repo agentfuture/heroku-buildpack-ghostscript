@@ -13,8 +13,10 @@ cd $BUILD_DIR
 mkdir -p $LOCATION/bin
 wget -O gs.tgz $PACKAGE
 tar xvf gs.tgz
-rm gs.tgz
 mv $BINARY $LOCATION/bin/gs
+
+rm gs.tgz
+rm -r "ghostscript-${GHOSTSCRIPT_VERSION}-linux-x86_64"
 
 echo "-----> Building runtime environment for Ghostscript to $LOCATION"
 
