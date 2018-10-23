@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 # bin/detect <build-dir>
 
-echo "Ghostscript 9.25"
+GHOSTSCRIPT_VERSION=${GHOSTSCRIPT_VERSION:="9.25"}
+
+echo "Ghostscript $GHOSTSCRIPT_VERSION"
 exit 0
